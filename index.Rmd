@@ -614,11 +614,11 @@ Para esse fim, é necessário definir uma regra para classificar os valores pred
 
 ## Qualiade do Ajuste -  Curva ROC
 
-A Curva ROC (Receiver Operating Characteristic Curve) no contexto do modelo de regressão logística permite avaliar o potencial da capacidade preditiva do modelo estimado a partir da relação entre as medidas de sensibilidade (*verdadeiros positivos*) e de especificidade (*verdadeiros positivos*).
+A Curva ROC (Receiver Operating Characteristic Curve) no contexto do modelo de regressão logística permite avaliar o potencial da capacidade preditiva do modelo estimado a partir da relação entre as medidas de sensibilidade (*verdadeiros positivos*) e de especificidade (*verdadeiros negativos*).
 
 
 ```{r, out.width='70%', fig.align='center',echo=FALSE}
-knitr::include_graphics('libs/fig/fig_matrizconfusao.png')
+knitr::include_graphics('fig/fig_matrizconfusao.png')
 
 ```
 ---
@@ -628,7 +628,7 @@ knitr::include_graphics('libs/fig/fig_matrizconfusao.png')
 ## Qualidade do Ajuste -  Curva ROC
 
 ```{r, out.width='70%', fig.align='center',echo=FALSE}
-knitr::include_graphics('libs/fig/ROC.jpg')
+knitr::include_graphics('fig/ROC.jpg')
 
 ```
 
@@ -678,7 +678,7 @@ class: inverse, center, middle
 Camarano, A. A., Kanso, S., Mello, J. L., & Andrade, A. (2006). Estão fazendo a transição os jovens que não estudam, não trabalham e não procuram trabalho?. Transição para a vida adulta ou vida adulta em transição, 259-290.
 
 ```{r, out.width='70%', fig.align='center', echo=FALSE}
-knitr::include_graphics('libs/fig/fig0.png')
+knitr::include_graphics('fig/fig0.png')
 ```
 
 ---
@@ -706,7 +706,7 @@ Dados: IBGE/Censo Demográfico de 2000.
 ## Codificação das variáveis
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE}
-knitr::include_graphics('libs/fig/fig1.png')
+knitr::include_graphics('fig/fig1.png')
 ```
 
 ---
@@ -717,14 +717,14 @@ knitr::include_graphics('libs/fig/fig1.png')
 
 
 ```{r, out.width='70%', fig.align='center', echo=FALSE}
-knitr::include_graphics('libs/fig/fig2.png')
+knitr::include_graphics('fig/fig2.png')
 
 ```
 
 --
 Sinal dos Coeficientes
 ```{r, out.width='50%', fig.align='center', echo=FALSE}
-knitr::include_graphics('libs/fig/fig3.png')
+knitr::include_graphics('fig/fig3.png')
 ```
 
 ---
@@ -735,7 +735,7 @@ knitr::include_graphics('libs/fig/fig3.png')
 
 
 ```{r, out.width='70%', fig.align='center', echo=FALSE}
-knitr::include_graphics('libs/fig/fig4.png')
+knitr::include_graphics('fig/fig4.png')
 ```
 
 ---
@@ -745,7 +745,7 @@ knitr::include_graphics('libs/fig/fig4.png')
 
 
 ```{r, out.width='70%', fig.align='center', echo=FALSE}
-knitr::include_graphics('libs/fig/fig5.png')
+knitr::include_graphics('fig/fig5.png')
 ```
 
 ---
